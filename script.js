@@ -4,6 +4,7 @@ const navLinks = document.querySelector(".nav-links");
 const themeToggle = document.querySelector(".theme-toggle");
 const form = document.querySelector("#form-contato");
 const currentYear = document.querySelector("#ano-atual");
+const backToTop = document.querySelector(".back-to-top");
 
 currentYear.textContent = new Date().getFullYear();
 
@@ -21,6 +22,12 @@ menuToggle.addEventListener("click", () => {
 
 document.querySelectorAll(".nav-links a").forEach((link) => {
   link.addEventListener("click", closeMenu);
+});
+
+backToTop.addEventListener("click", (event) => {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  history.replaceState(null, "", "#topo");
 });
 
 // O tema é salvo no navegador para manter a preferência do visitante em novos acessos.

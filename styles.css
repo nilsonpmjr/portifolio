@@ -51,6 +51,12 @@ body.menu-open {
   overflow: hidden;
 }
 
+.top-anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 a {
   color: inherit;
 }
