@@ -19,16 +19,5 @@ Site criado para a atividade prática de Fundamentos da Programação Web.
 - `script.js`: menu responsivo, tema, link ativo e validação do formulário.
 - `entrega.md`: modelo com campos para preparar o PDF final da atividade.
 
-## Publicação no GitHub Pages
-
-1. Crie um repositório público no GitHub, por exemplo `portfolio-nilson-miranda`.
-2. Envie estes arquivos para a branch principal do repositório.
-3. No GitHub, acesse `Settings > Pages`.
-4. Em `Build and deployment`, selecione a branch principal e a pasta `/root`.
-5. Aguarde a publicação e copie o link gerado.
-
-O link esperado ficará parecido com:
-
 ```text
-https://nilsonpmjr.github.io/portfolio-nilson-miranda/
-```
+https://nilsonpmjr.github.io/portifolio/```
