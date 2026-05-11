@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio online de Nilson Miranda, analista de cyber segurança e desenvolvedor.">
+  <title>Nilson Miranda | Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header" id="topo">
+    <nav class="navbar" aria-label="Navegação principal">
+      <a class="brand" href="#sobre" aria-label="Ir para a seção Sobre mim">
+        <span class="brand-mark">NM</span>
+        <span>Nilson Miranda</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+        aria-controls="menu-principal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="menu-principal">
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <button class="theme-toggle" type="button" aria-label="Alternar tema claro e escuro">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-band" id="sobre">
+      <div class="section-shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Analista de cyber segurança · Desenvolvedor · Criador</p>
+          <h1>Nilson Miranda</h1>
+          <p class="lead">
+            Transformo curiosidade, código e investigação em soluções digitais com foco em
+            segurança, automação e inteligência de ameaças.
+          </p>
+
+          <div class="hero-actions" aria-label="Ações principais">
+            <a class="button primary" href="#portfolio">Ver projetos</a>
+            <a class="button secondary" href="mailto:nilsonpmjr@gmail.com">Enviar e-mail</a>
+          </div>
+        </div>
+
+        <aside class="identity-panel" aria-label="Resumo pessoal">
+          <img class="profile-photo" src="https://github.com/nilsonpmjr.png"
+            alt="Foto de perfil de Nilson Miranda no GitHub">
+          <div>
+            <p class="panel-label">Também sou</p>
+            <div class="tag-list">
+              <span>guitarrista</span>
+              <span>cantor de chuveiro</span>
+              <span>motociclista</span>
+              <span>pai</span>
+              <span>marido</span>
+              <span>amante das artes</span>
+              <span>curioso por ciência</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-band about-band" aria-labelledby="titulo-sobre">
+      <div class="section-shell split-layout">
+        <div>
+          <p class="section-kicker">Sobre mim</p>
+          <h2 id="titulo-sobre">Entre análise, música e estrada</h2>
+        </div>
+        <div class="text-stack">
+          <p>
+            Sou Nilson Miranda, analista de cyber segurança e desenvolvedor em formação
+            contínua. Gosto de investigar problemas, automatizar rotinas e construir
+            ferramentas que ajudem pessoas a tomar decisões melhores.
+          </p>
+          <p>
+            Fora do computador, a vida também é laboratório: guitarra, canto no chuveiro,
+            motocicleta, família, artes e ciência fazem parte do meu jeito de observar o
+            mundo e aprender com ele.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band education-band" id="formacao">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Formação</p>
+          <h2>Base técnica em segurança e desenvolvimento</h2>
+        </div>
+
+        <div class="timeline" aria-label="Formação, cursos e idiomas">
+          <article class="timeline-item">
+            <span class="timeline-marker"></span>
+            <div>
+              <h3>Segurança da Informação</h3>
+              <p>Formando em Segurança da Informação, com interesse em defesa cibernética, inteligência de ameaças e
+                operações de SOC.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-marker"></span>
+            <div>
+              <h3>Desenvolvimento web e automação</h3>
+              <p>Experiência prática com projetos em HTML, CSS, JavaScript, TypeScript, Python e ferramentas de apoio a
+                investigações.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-marker"></span>
+            <div>
+              <h3>Idiomas</h3>
+              <p>Português nativo e leitura técnica em inglês para documentação, pesquisa, ferramentas e conteúdos de
+                segurança.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band portfolio-band" id="portfolio">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Portfólio</p>
+          <h2>Projetos e experimentos publicados</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Cyber segurança · TypeScript</p>
+            <h3>VANTAGE</h3>
+            <p>Plataforma de threat intelligence e operações de SOC para análise de IPs, domínios, hashes, feeds,
+              watchlists e handoff de turno.</p>
+            <div class="project-links">
+              <a href="https://github.com/nilsonpmjr/VANTAGE" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://vantagesec.org/" target="_blank" rel="noopener">Site</a>
+            </div>
+          </article>
+
+          <article class="project-card accent">
+            <p class="project-type">SOC · TypeScript</p>
+            <h3>SOCC</h3>
+            <p>Copiloto de operações de segurança para triagem de artefatos suspeitos, suporte a investigação, threat
+              intelligence e resposta a incidentes.</p>
+            <div class="project-links">
+              <a href="https://github.com/nilsonpmjr/socc" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://socc.vantagesec.org/" target="_blank" rel="noopener">Site</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Extensão · TypeScript</p>
+            <h3>SOCC Plugin</h3>
+            <p>Projeto complementar ao ecossistema SOCC, voltado a extensão e integração de fluxos de análise de
+              segurança.</p>
+            <div class="project-links">
+              <a href="https://github.com/nilsonpmjr/socc-plugin" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Automação · Python</p>
+            <h3>Alfa Ofertas</h3>
+            <p>Bot para monitorar oportunidades no Mercado Livre e Amazon Brasil em nichos como ferramentas, automotivo
+              e tecnologia.</p>
+            <div class="project-links">
+              <a href="https://github.com/nilsonpmjr/alfa-ofertas" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Web · HTML</p>
+            <h3>Omma Recipe Website</h3>
+            <p>Projeto web em HTML para prática de estruturação de páginas, conteúdo visual e organização de interface.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/nilsonpmjr/omma-recipe-website" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Web · HTML</p>
+            <h3>Dindin Financial Website</h3>
+            <p>Site financeiro desenvolvido como exercício de front-end, com foco em páginas informativas e navegação
+              simples.</p>
+            <div class="project-links">
+              <a href="https://github.com/nilsonpmjr/dindin-financial-website" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band contact-band" id="contato">
+      <div class="section-shell contact-grid">
+        <div>
+          <p class="section-kicker">Contato</p>
+          <h2>Vamos conversar</h2>
+        </div>
+
+        <form class="contact-form" id="form-contato" novalidate>
+          <!-- Os campos abaixo são validados no arquivo script.js antes da simulação de envio. -->
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Seu nome">
+          <small class="error-message" id="erro-nome"></small>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="voce@exemplo.com">
+          <small class="error-message" id="erro-email"></small>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+          <small class="error-message" id="erro-mensagem"></small>
+
+          <button class="button primary form-button" type="submit">Enviar mensagem</button>
+          <p class="form-status" id="status-formulario" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-content">
+      <p>&copy; <span id="ano-atual"></span> Nilson Miranda. Portfólio desenvolvido em HTML, CSS e JavaScript puro.</p>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
