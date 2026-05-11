@@ -19,6 +19,16 @@ Site criado para a atividade prática de Fundamentos da Programação Web.
 - `script.js`: menu responsivo, tema, link ativo e validação do formulário.
 - `entrega.md`: modelo com campos para preparar o PDF final da atividade.
 
+## Links da entrega
+
+Site publicado:
+
 ```text
 https://nilsonpmjr.github.io/portifolio/
+```
+
+Repositório público:
+
+```text
+https://github.com/nilsonpmjr/portifolio/
 ```

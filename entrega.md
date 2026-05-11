@@ -15,7 +15,7 @@ https://nilsonpmjr.github.io/portifolio/
 Cole aqui o link do repositório público:
 
 ```text
-https://github.com/nilsonpmjr/portfolio/
+https://github.com/nilsonpmjr/portifolio/
 ```
 
 ## Prints para inserir no PDF final
