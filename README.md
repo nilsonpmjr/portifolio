@@ -20,4 +20,5 @@ Site criado para a atividade prática de Fundamentos da Programação Web.
 - `entrega.md`: modelo com campos para preparar o PDF final da atividade.
 
 ```text
-https://nilsonpmjr.github.io/portifolio/```
+https://nilsonpmjr.github.io/portifolio/
+```
